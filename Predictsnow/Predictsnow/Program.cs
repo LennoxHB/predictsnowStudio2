@@ -27,5 +27,42 @@ namespace Predictsnow
                 }
             } while (start == 1);
         }
+        
+                    Console.WriteLine("temp check thing");
+
+            Console.WriteLine("What is temp");
+            int degrees = Convert.ToInt32(Console.ReadLine());
+
+
+            // int degrees = 
+            if (degrees < -20) 
+            {
+                Console.WriteLine("to cold");
+            }
+            else
+            {
+                if (degrees < -9)
+                {
+                    Console.WriteLine("perfect");
+                }
+                else 
+                {
+                    if (degrees > 0)
+                    {
+                        Console.WriteLine("to warm");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Unknown weather patern");
+                    }
+                       
+                }
+            }
+
+            Console.ReadLine();
+
+
+        
+        
     }
 }
